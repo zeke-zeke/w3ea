@@ -20,7 +20,7 @@ import {
 } from "@nextui-org/react";
 
 export default function BottomBar({ marginTop }: { marginTop: number }) {
-    // max-w-[30ch]
+    // max-w-[30ch] test
     return (
         <Navbar
             isBlurred={false}
