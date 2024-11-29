@@ -1,0 +1,1197 @@
+
+
+<!doctype html>
+<html id="html" lang="en">
+<head><title>
+	TESTNET  Linea Sepolia (ETH) Blockchain Explorer
+</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="format-detection" content="telephone=no" />
+    <meta name="Description" content="Sepolia LineaScan  allows you to explore and search the blockchain for transactions, addresses, tokens, prices and other activities taking place on Linea Sepolia." /> <meta name="author" content="LineaScan" /> <meta name="keywords" content="LineaScan, Sepolia explorer, search, blockchain, crypto, currency" /> <meta property="og:title" content="TESTNET  Linea Sepolia (ETH) Blockchain Explorer" /> <meta property="og:description" content="LineaScan allows you to explore and search the  blockchain for transactions, addresses, tokens, prices and other activities taking place on  (ETH)" /> <meta property="og:type" content="website" /> <meta property="og:site_name" content="Linea Sepolia Chain Explorer" /> <meta property="og:url" content="https://sepolia.lineascan.build/" /> <meta property="og:image" content="https://sepolia.lineascan.build/assets/linea/images/og.jpg?v=24.11.1.0" /> <meta property="og:image:alt" content="Visit sepolia.lineascan.build/" /> <meta name="twitter:card" content="summary" /> <meta name="twitter:title" content="TESTNET  Linea Sepolia (ETH) Blockchain Explorer" /> <meta property="twitter:description" content="LineaScan allows you to explore and search the  blockchain for transactions, addresses, tokens, prices and other activities taking place on  (ETH)" /> <meta name="twitter:site" content="@lineascan" /> <meta property="twitter:image" content="https://sepolia.lineascan.build/assets/linea/images/og.jpg?v=24.11.1.0" /> <meta name="twitter:image:alt" content="Visit sepolia.lineascan.build/" /> 
+<link rel="shortcut icon" href="/assets/generic/html/favicon.ico" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7HXXHXN492"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config','G-7HXXHXN492', { 'anonymize_ip': true });
+    </script>
+    
+
+    <script>
+        //Search box text ad
+        var availableAd = [];
+        var gotAd = [];
+
+        
+    </script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/assets/vendor/font-awesome/css/all.min.css?v=24.11.1.0">
+    <link rel="stylesheet" href="/assets/vendor/autocomplete/dist/css/autocomplete.min.css?v=24.11.1.0" />
+
+    <link rel="stylesheet" href="/assets/css/theme.min.css?v=24.11.1.0">
+    <link rel="stylesheet" href="/assets/linea/css/linea.min.css?v=24.11.1.0">
+    <link rel="stylesheet" href="/assets/css/custom.css?v=24.11.1.0">
+
+    <script src="/assets/vendor/jquery/dist/jquery.min.js?v=24.11.1.0"></script>
+    <script type="text/javascript" src="/jss/blockies.js?v=24.11.1.0"></script>
+
+    <script type="text/javascript" src="/assets/js/theme-appearance.js?v=24.11.1.0"></script>
+
+    <style>
+        .autolink-safari a {
+            pointer-events: none !important;
+            text-decoration: none !important;
+            color: inherit !important;
+        }
+
+        #masterNoticeBar div.alert a{
+            color:#fff !important; 
+            text-decoration: underline !important;
+        }
+
+        .word-break{word-break: break-all !important;}
+        .min-with50{min-width: 50px !important;}
+    </style>
+
+    <style> .dydq9ixmu1b { -ms-flex-pack: center; justify-content: center; } .a1qbwgxvrp8 { border-top: 1px solid #e7eaf3 !important; } body.dark-mode .a1qbwgxvrp8 { border-color: #18365b !important; } @media (min-width: 992px) { .bn4x3na6qvu { display: block !important; } } @media (min-width: 992px) { .csxpuimj5ut { display: inline-block !important; } }  </style>
+    
+    <style>
+        .wrapper {
+            background-color: #fff !important;
+        }
+    
+        [data-bs-theme="light"],
+        [data-bs-theme=auto] {
+            --bg-img-wave: url(./assets/svg/patterns/waves.svg);
+        }
+
+        [data-bs-theme="dark"],
+        [data-bs-theme="dim"] {
+            --bg-img-wave: url(./assets/svg/patterns/waves-light.svg);
+        }
+
+        #cardSpinnerWrapper {
+            background: none;
+            color: #666666;
+            opacity: 1;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            height: 160px;
+            z-index: 5000;
+            display: none;
+        }
+
+        #mainOverlay {
+            color: #666666;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            float: left;
+            text-align: center;
+            padding-top: 20%;
+            display: none;
+        }
+
+        @media (max-width: 767.98px) {
+            .card-header-title > .hash-tag {
+                max-width: 7rem !important;
+            }
+        } 
+    </style>
+<meta name="description" content="LineaScan allows you to explore and search the  blockchain for transactions, addresses, tokens, prices and other activities taking place on  (ETH)" /></head>
+
+<body id="body" class="d-flex flex-column min-vh-100">
+
+    <section id="masterNoticeBar">
+        <!--Maintenance Message-->
+        
+        <!--End Maintenance Message-->
+    </section>
+
+    <!-- ========== TOPBAR ========== -->
+    <section id="masterTopBar" class="d-none d-lg-block sticky-top bg-white border-bottom py-1">
+        
+        <div class="container-xxl d-flex align-items-center justify-content-between">
+            
+            <div id="ethPrice" class="d-flex align-items-sm-center gap-4 w-100 fs-sm">                
+                <span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium p-2'>Linea Testnet</span>
+                </div>
+
+            <div class="d-flex justify-content-end align-items-center gap-2">
+                
+
+                <div id="divThemeSetting" class="dropdown">
+                    <button class="btn btn-lg btn-white text-primary content-center" type="button" id="dropdownMenuTopbarSettings" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" style="width: 2.375rem; height: 2.375rem;">
+                        <span class="theme-btn-main"><i class="far fa-sun-bright theme-icon-active" data-href="#fa-sun-bright"></i></span>
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuTopbarSettings">
+                        <li>
+                            <button type="button" class="dropdown-item theme-btn active" data-bs-theme-value="light" onclick="setThemeMode('light');">
+                                <i class="far fa-sun-bright fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-sun-bright"></i> Light
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dim" onclick="setThemeMode('dim');">
+                                <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon-stars"></i> Dim
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dark" onclick="setThemeMode('dark');">
+                                <i class="far fa-moon fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon"></i> Dark
+                            </button>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/settings">
+                                <i class="far fa-gear fa-fw dropdown-item-icon me-1"></i> Site Settings <i class="far fa-arrow-right ms-1"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="divTestNet" class="dropdown">
+                    <button class="btn btn-lg btn-white content-center p-0" type="button" id="dropdownTopbarNetworks" data-bs-toggle="dropdown" aria-expanded="false" style="width: 2.375rem; height: 2.375rem;">
+                        <img width="18" data-img-theme="light" src="/assets/linea/images/svg/logos/chain-light.svg?v=24.11.1.0" alt="Linea Sepolia Logo">
+                        <img width="18" data-img-theme="dim" src="/assets/linea/images/svg/logos/chain-dim.svg?v=24.11.1.0" alt="Linea Sepolia Logo">
+                        <img width="18" data-img-theme="dark" src="/assets/linea/images/svg/logos/chain-dark.svg?v=24.11.1.0" alt="Linea Sepolia Logo">
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownTopbarNetworks">
+                        
+                        <li><a class="dropdown-item" href="https://lineascan.build">Linea Mainnet</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="https://sepolia.lineascan.build">Linea Sepolia Testnet</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== TOPBAR ========== -->
+
+    <!-- ========== HEADER ========== -->
+    <header id="masterHeader" class="header border-bottom d-print-none">
+        <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0">
+            <div class="container-xxl position-relative">
+                <a class="navbar-brand" href="/" target="_parent" aria-label="LineaScan">
+                    
+                    <img width="100" data-img-theme="light" src="/assets/linea/images/svg/logos/logo-light.svg?v=24.11.1.0" alt="LineaScan Logo">
+                    <img width="100" data-img-theme="dim" src="/assets/linea/images/svg/logos/logo-dim.svg?v=24.11.1.0" alt="LineaScan Logo">
+                    <img width="100" data-img-theme="dark" src="/assets/linea/images/svg/logos/logo-dark.svg?v=24.11.1.0" alt="LineaScan Logo">
+                </a>
+
+                <div class="d-flex align-items-center gap-4">
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav gap-1 gap-lg-0 pt-4 pt-lg-0">
+                        <li class="nav-item">
+                            <a href="/" id="LI_default" class="nav-link active" aria-current="page">
+                                Home
+                            </a>
+                        </li>
+
+                        
+                        <!-- Blockchain -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI_blockchain" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blockchain</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                
+                                <li>
+                                    <a href="/txs" id="LI12" class="dropdown-item">
+                                        Transactions
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/txsDeposits" id="LI84" class="dropdown-item">
+                                        Latest L1→L2 Transactions
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/txsExit" id="LI86" class="dropdown-item">
+                                        Latest L2→L1 Transactions
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/txsPending" id="LI16" class="dropdown-item">
+                                        Pending Transactions
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/txsInternal" id="LI14" class="dropdown-item">
+                                        Contract Internal Transactions
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a href="/blocks" id="LI_blocks" class="dropdown-item">
+                                        View Blocks
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/batches" id="LI87" class="dropdown-item">
+                                        View Batches
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a href="/accounts" id="LI_accountall" class="dropdown-item">
+                                        Top Accounts
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="/contractsVerified" id="LI_contract_verified" class="dropdown-item">
+                                        Verified Contracts
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Blockchain -->
+                        
+                        <!-- Tokens -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI73" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tokens</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                
+                                <li>
+                                    <a href="/tokentxns" id="LI3" class="dropdown-item">
+                                        View ERC-20 Transfers
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End Tokens -->
+                        
+                        <!-- NFTs -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI70" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">NFTs</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                
+                                <li>
+                                    <a href="/nft-transfers" id="LI71" class="dropdown-item">
+                                        Latest Transfers
+                                    </a>
+                                </li>
+                                
+                                 <li>
+                                    <a href="/nft-latest-mints" id="LI72" class="dropdown-item">
+                                        Latest Mints
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <!-- End NFTs -->
+                        
+                        <!-- Misc -->
+                        <li class="nav-item dropdown position-initial">
+                            <a href="javascript:;" id="A4" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <div class="dropdown-menu dropdown-menu-border dropdown-menu-mega">
+                                <div class="row">
+                                    
+                                    <div class="col-sm py-5">
+                                        <h6 class="px-3 mb-3">Converters</h6>
+                                        <ul class="list-unstyled">
+                                            
+                                            <li>
+                                                <a href="/unitconverter" id="hpUnitCovnertor" class="dropdown-item">Unit Converter
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="/base64converter" id="A5" class="dropdown-item">
+                                                    Base64 Converter
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/blockdateconverter" id="A6" class="dropdown-item">
+                                                    Block & Date Converter
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/utf8converter" id="A7" class="dropdown-item">UTF-8 Converter </a>
+                                            </li>
+                                            <li>
+                                                <a href="/methodidconverter" id="A8" class="dropdown-item">Method ID Converter </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="col-sm py-5">
+                                        <h6 class="px-3 mb-3">Developers</h6>
+                                        <ul class="list-unstyled">
+                                           
+                                            <li>
+                                                <a href="https://docs.lineascan.build/v/sepolia-lineascan" id="LI83" class="dropdown-item" target="_blank">
+                                                    API Documentation
+                                                </a>
+                                            </li>
+                                           
+                                            <li>
+                                                <a href="/verifyContract" id="A9" class="dropdown-item">
+                                                    Verify Contract
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="/contractdiffchecker" id="A10" class="dropdown-item">Contract Diff Checker</a>
+                                            </li>
+                                           
+                                            <li>
+                                                <a href="/vyper" id="A12" class="dropdown-item">Vyper Online Compiler </a>
+                                            </li>
+                                           
+                                            <li>
+                                                <a href="/opcode-tool" id="A13" class="dropdown-item">Bytecode to Opcode </a>
+                                            </li>
+                                           
+                                            <li>
+                                                <a href="/pushTx" id="A14" class="dropdown-item">Broadcast Transaction</a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="col-sm py-5">
+                                        <h6 class="px-3 mb-3">Tools & Services</h6>
+                                        <ul class="list-unstyled">
+                                           
+                                            <li>
+                                                <a href="/exportData" id="hpDownloadData" class="dropdown-item">CSV Export </a>
+                                            </li>
+                                           
+
+                                            <li>
+                                                <a href="/inputdatadecoder" id="hpInputDataDecoder" class="dropdown-item">Input Data Decoder <span class="badge border bg-light text-muted">Beta</span>
+                                                </a>
+                                            </li>
+                                            
+                                            
+                                            <li>
+                                                <a href="/balancecheck-tool" id="hpBalanceChecker" class="dropdown-item">Account Balance Checker
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="/tokencheck-tool" id="hpTokenSupplyChecker" class="dropdown-item">Token Supply Checker
+                                                </a>
+                                            </li>
+                                            
+                                              <li>
+                                                <a href="/tokentracker" id="hpTokenTraker" class="dropdown-item">Token Standard Checker
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <!-- End Misc -->
+                        
+
+                        <li class="nav-item dropdown d-block d-lg-none">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explorers</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                
+                                <li><a class="dropdown-item" href="https://lineascan.build">Linea Mainnet</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="https://sepolia.lineascan.build">Linea Sepolia Testnet</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Appearance & Settings -->
+                        <li class="nav-item dropdown d-block d-lg-none">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Appearance &amp; Settings</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                <li>
+                                    <button type="button" class="dropdown-item theme-btn active" data-bs-theme-value="light" onclick="setThemeMode('light');">
+                                        <i class="far fa-sun-bright fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-sun-bright"></i> Light
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dim" onclick="setThemeMode('dim');">
+                                        <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon-stars"></i> Dim
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dark" onclick="setThemeMode('dark');">
+                                        <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon"></i> Dark
+                                    </button>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/settings">
+                                        <i class="far fa-gear fa-fw dropdown-item-icon me-1"></i> Site Settings <i class="far fa-arrow-right ms-1"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- End Appearance & Settings -->
+                        
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- ==========  END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" class="main-content" role="main">
+        <input type="hidden" name="hdnAgeText" id="hdnAgeText" value="Age" />
+        <input type="hidden" name="hdnDateTimeText" id="hdnDateTimeText" value="Date Time (UTC)" />
+        <input type="hidden" name="hdnAgeTitle" id="hdnAgeTitle" value="Click to show Age Format" />
+        <input type="hidden" name="hdnDateTimeTitle" id="hdnDateTimeTitle" value="Click to show Datetime Format" />
+        <input type="hidden" name="hdnTxnText" id="hdnTxnText" value="Txn Fee" />
+        <input type="hidden" name="hdnGasPriceText" id="hdnGasPriceText" value="Gas Price" />
+        
+            <input type="hidden" name="hdnTxnFeeTitle" id="hdnTxnFeeTitle" value="(Gas Price * Gas Used by Txns) in ETH" />
+        
+        <input type="hidden" name="hdnGasPriceTitle" id="hdnGasPriceTitle" value="Gas Price in Gwei" />
+        <input type="hidden" name="hdnSiteName" id="hdnSiteName" value="lineascan" />
+        <input type="hidden" name="hdnSiteEmptyToken" id="hdnSiteEmptyToken" value="/assets/linea/images/svg/empty-token.svg?v=24.11.1.0" />
+        <input type="hidden" name="hdnSiteShortUrl" id="hdnSiteShortUrl" value="sepolia.lineascan.build/" />
+
+        
+    <div id="mainOverlay" class="bg-white bg-opacity-40"></div>
+
+    <section class='bg-dark pt-14 pb-20' style='background-image: url(/images/svg/waves-light.svg);'>
+        <div class="container-xxl">
+            <div class='row justify-content-center align-items-center'>
+                <div class='col-md-9 col-lg-6 mb-4'>
+                    <h1 class='fs-lg text-center text-white fw-medium mb-4'>
+                        Linea Sepolia Testnet Explorer
+                    </h1>
+
+                    <form class="mb-3" action="/search" method="GET">
+                        <div class="search-panel-container bg-white border rounded d-flex gap-2 p-1.5">
+                            <!-- Search Filter -->
+                            <div class="d-none d-sm-block">
+                                <select name="f" class="form-select fs-base border-0 filterby" aria-label="Default select example">
+                                    <option selected value="0">All Filters</option>
+                                    <option value="1">Addresses</option>
+                                    <option value="2">Tokens</option>
+                                    
+                                </select>
+                            </div>
+                            <!-- End Search Filter -->
+
+                            <!-- Search Box -->
+                            <div class="flex-grow-1 position-relative auto-search-max-height">
+                                <label for="search-panel" class="visually-hidden">Search</label>
+                                    
+                                <input id="search-panel" type="text" class="form-control fs-base border-0 pe-8" autocomplete="off" spellcheck="false" placeholder="Search by Address / Txn Hash / Block / Token" aria-describedby="button-header-search" name="q" onkeyup="handleSearchText(this);" maxlength="68" />
+
+                                <a href="javascript:;" class="clear-icon d-none align-items-center position-absolute top-0 bottom-0 my-auto d-flex align-items-center" style="right: 0.75rem; cursor:pointer;">
+                                    <i class="fa-regular fa-xmark fs-5 text-secondary"></i>
+                                </a>
+
+                                <input type="hidden" value="" id="hdnSearchText" />
+                                <input type="hidden" value="" id="hdnSearchLabel" />
+                                <input id="hdnIsTestNet" value="True" type="hidden" />
+                            </div>
+
+                            <div>
+                                
+                                    <button class="btn fs-base btn-primary" type="submit">
+                                
+                                    <i class="far fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                            <!-- End Search Box -->
+                        </div>
+                    </form>
+
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    
+        <section class="container-xxl pb-20 mt-n16">
+    
+        <!-- Stats -->
+        
+        
+        <div class="card py-5 px-4 mb-4 mt-n12">
+	        <div class="row g-lg-10">
+	            <div class="col-md-6 col-lg-4">
+		        <div class="d-flex">
+		            <div class="me-3">
+			        <i class="fal fa-server" style="font-size: 1.5rem;"></i>
+		            </div>
+
+		            <div class="flex-grow-1">
+			        <div class="text-cap mb-px">Transactions</div>
+			        <a href='/txs' class='link-dark fs-base' rel='tooltip' data-bs-toggle='tooltip' data-bs-placement='left' data-bs-html='true' title='Total Transactions Counter<br>(Update every 5 mins)'>8.44 M</a><span class='text-muted small' style='font-size:14px' rel='tooltip' data-bs-toggle='tooltip' data-bs-placement='bottom' title='Transactions per Second'> (0.6 TPS)</span>
+		            </div>
+		        </div>
+	            </div>
+
+	            <div class="col-md-6 col-lg-4 border-md-start">
+		        <hr class="d-block d-md-none my-5">
+
+		        <div class="d-flex">
+		            <div class="me-3">
+			        <i class="fal fa-gauge" style="font-size: 1.5rem;"></i>
+		            </div>
+
+		            <div class="flex-grow-1">
+			        <div class="text-cap mb-px">Base Fee</div>
+			        0 Gwei
+		            </div>
+		        </div>
+	            </div>
+
+	            <div class="col-md-6 col-lg-4 border-md-start">
+		            <hr class="d-block d-md-none my-5">
+		            <div class="d-flex">
+		            <div class="position-relative me-3">
+			            <i class="fal fa-block" style="font-size: 1.5rem;"></i>
+			            <i class="far fa-shield position-absolute small" style="top: 0.38rem; left: 0.25rem;"></i>
+		            </div>
+
+		            <div class="flex-grow-1">
+			            <div class="text-cap mb-px">Latest Block</div>
+			            6002387
+		            </div>
+		            </div>
+	            </div>
+	            
+	        </div>
+        </div>
+        
+        <!-- End Stats -->
+
+        <!-- Banners -->
+        
+        <!-- End Banners -->
+
+        <!-- Custom Cards -->
+        <div id="ContentPlaceHolder1_divBlkTxn" class="row g-4">
+             <div id="cardSpinnerWrapper">
+                 <!-- Spinner --><div id="cardSpinner" class="text-center py-10 "><div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div><div class="small text-muted mt-1">Loading</div></div><!-- End Spinner -->
+             </div>
+
+            
+            <!-- L2 Explorers -->
+
+            <!-- Blocks -->
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h2 class="card-header-title">Latest Blocks</h2>
+                    </div>
+
+                    <div class="card-body overflow-auto scrollbar-custom" style="max-height: 30.3rem;">
+                        <!-- Item List --><div class='row'><div class='col-sm-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span> <a class='text-truncate' style='max-width: 6rem;' href='/block/6002387'>6002387</a><span class='small text-muted' > 4 secs ago</span></div></div></div><div class='col-sm-7'><div class='d-flex flex-wrap gap-1'>Sequenced By  <a class='text-truncate d-block' href='/address/0x0000000000000000000000000000000000000000'><span data-highlight-target="0x0000000000000000000000000000000000000000">0x00000000...000000000</span></a></div><a href="/txs?block=6002387" data-bs-toggle='tooltip' title="Transactions in this Block">1 txn </a> <span class="small text-muted">in 2 secs</span></div></div><!-- End Item List --><hr><!-- Item List --><div class='row'><div class='col-sm-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span> <a class='text-truncate' style='max-width: 6rem;' href='/block/6002386'>6002386</a><span class='small text-muted' > 6 secs ago</span></div></div></div><div class='col-sm-7'><div class='d-flex flex-wrap gap-1'>Sequenced By  <a class='text-truncate d-block' href='/address/0x0000000000000000000000000000000000000000'><span data-highlight-target="0x0000000000000000000000000000000000000000">0x00000000...000000000</span></a></div><a href="/txs?block=6002386" data-bs-toggle='tooltip' title="Transactions in this Block">1 txn </a> <span class="small text-muted">in 2 secs</span></div></div><!-- End Item List --><hr><!-- Item List --><div class='row'><div class='col-sm-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span> <a class='text-truncate' style='max-width: 6rem;' href='/block/6002385'>6002385</a><span class='small text-muted' > 8 secs ago</span></div></div></div><div class='col-sm-7'><div class='d-flex flex-wrap gap-1'>Sequenced By  <a class='text-truncate d-block' href='/address/0x0000000000000000000000000000000000000000'><span data-highlight-target="0x0000000000000000000000000000000000000000">0x00000000...000000000</span></a></div><a href="/txs?block=6002385" data-bs-toggle='tooltip' title="Transactions in this Block">1 txn </a> <span class="small text-muted">in 2 secs</span></div></div><!-- End Item List --><hr><!-- Item List --><div class='row'><div class='col-sm-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span> <a class='text-truncate' style='max-width: 6rem;' href='/block/6002384'>6002384</a><span class='small text-muted' > 10 secs ago</span></div></div></div><div class='col-sm-7'><div class='d-flex flex-wrap gap-1'>Sequenced By  <a class='text-truncate d-block' href='/address/0x0000000000000000000000000000000000000000'><span data-highlight-target="0x0000000000000000000000000000000000000000">0x00000000...000000000</span></a></div><a href="/txs?block=6002384" data-bs-toggle='tooltip' title="Transactions in this Block">1 txn </a> <span class="small text-muted">in 2 secs</span></div></div><!-- End Item List --><hr><!-- Item List --><div class='row'><div class='col-sm-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span> <a class='text-truncate' style='max-width: 6rem;' href='/block/6002383'>6002383</a><span class='small text-muted' > 12 secs ago</span></div></div></div><div class='col-sm-7'><div class='d-flex flex-wrap gap-1'>Sequenced By  <a class='text-truncate d-block' href='/address/0x0000000000000000000000000000000000000000'><span data-highlight-target="0x0000000000000000000000000000000000000000">0x00000000...000000000</span></a></div><a href="/txs?block=6002383" data-bs-toggle='tooltip' title="Transactions in this Block">1 txn </a> <span class="small text-muted">in 2 secs</span></div></div><!-- End Item List --><hr><!-- Item List --><div class='row'><div class='col-sm-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span> <a class='text-truncate' style='max-width: 6rem;' href='/block/6002382'>6002382</a><span class='small text-muted' > 14 secs ago</span></div></div></div><div class='col-sm-7'><div class='d-flex flex-wrap gap-1'>Sequenced By  <a class='text-truncate d-block' href='/address/0x0000000000000000000000000000000000000000'><span data-highlight-target="0x0000000000000000000000000000000000000000">0x00000000...000000000</span></a></div><a href="/txs?block=6002382" data-bs-toggle='tooltip' title="Transactions in this Block">1 txn </a> <span class="small text-muted">in 2 secs</span></div></div><!-- End Item List -->
+                    </div>
+
+                    <a class="card-footer bg-light fw-medium text-cap link-muted text-center" href="/blocks">
+                        View all blocks <i class="far fa-long-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- End Blocks -->
+
+            <!-- Transactions -->
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h2 class="card-header-title">Latest Transactions</h2>
+                    </div>
+
+                    <div class="card-body overflow-auto scrollbar-custom" style="max-height: 30.3rem;">
+                        <!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'>Tx#<a class='d-block text-truncate' href='/tx/0xca19f84b64e2e756aa930dca398c717a7b9c7caa6907d17b6600752273f425d3' style='max-width: 15rem;'>0xca19f84b64e2e756aa930dca398c717a7b9c7caa6907d17b6600752273f425d3</a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'>From<a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div><div class='d-flex align-items-center text-truncate gap-1'>To <a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div></div><div class='d-flex align-items-center gap-2'><div class='small text-muted me-1' >4 secs ago</div><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 px-1.5' data-bs-toggle='tooltip' title='Amount'>0 ETH</span></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'>Tx#<a class='d-block text-truncate' href='/tx/0x55bf6c861319e1b6af48ded1dbabc37702dc0c76de154389079bb6a56424e245' style='max-width: 15rem;'>0x55bf6c861319e1b6af48ded1dbabc37702dc0c76de154389079bb6a56424e245</a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'>From<a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div><div class='d-flex align-items-center text-truncate gap-1'>To <a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div></div><div class='d-flex align-items-center gap-2'><div class='small text-muted me-1' >6 secs ago</div><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 px-1.5' data-bs-toggle='tooltip' title='Amount'>0 ETH</span></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'>Tx#<a class='d-block text-truncate' href='/tx/0xa47efcf9efd6740635785f38ae6285b0f283e3490fe4ccc87c698254dfb910e3' style='max-width: 15rem;'>0xa47efcf9efd6740635785f38ae6285b0f283e3490fe4ccc87c698254dfb910e3</a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'>From<a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div><div class='d-flex align-items-center text-truncate gap-1'>To <a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div></div><div class='d-flex align-items-center gap-2'><div class='small text-muted me-1' >8 secs ago</div><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 px-1.5' data-bs-toggle='tooltip' title='Amount'>0 ETH</span></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'>Tx#<a class='d-block text-truncate' href='/tx/0x1a63bdf08a83faf8dff183bdf80d2176fb5affa0676a89a89705a8891f46a8da' style='max-width: 15rem;'>0x1a63bdf08a83faf8dff183bdf80d2176fb5affa0676a89a89705a8891f46a8da</a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'>From<a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div><div class='d-flex align-items-center text-truncate gap-1'>To <a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div></div><div class='d-flex align-items-center gap-2'><div class='small text-muted me-1' >10 secs ago</div><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 px-1.5' data-bs-toggle='tooltip' title='Amount'>0 ETH</span></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'>Tx#<a class='d-block text-truncate' href='/tx/0x2f19c3c034dcfebdfd9f15be48dddb20a7fc85a7fdd7614c267d23d348ecd436' style='max-width: 15rem;'>0x2f19c3c034dcfebdfd9f15be48dddb20a7fc85a7fdd7614c267d23d348ecd436</a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'>From<a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div><div class='d-flex align-items-center text-truncate gap-1'>To <a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div></div><div class='d-flex align-items-center gap-2'><div class='small text-muted me-1' >12 secs ago</div><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 px-1.5' data-bs-toggle='tooltip' title='Amount'>0 ETH</span></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'>Tx#<a class='d-block text-truncate' href='/tx/0xd24f949f6b0be151e465e8e535a7aedd4f62bebdc95935c7f92bd76b70e3d796' style='max-width: 15rem;'>0xd24f949f6b0be151e465e8e535a7aedd4f62bebdc95935c7f92bd76b70e3d796</a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'>From<a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div><div class='d-flex align-items-center text-truncate gap-1'>To <a class='text-truncate d-block' style='max-width: 12rem;' href='/address/0x228466f2c715cbec05deabfac040ce3619d7cf0b'><span data-highlight-target="0x228466F2C715CbEC05dEAbfAc040ce3619d7CF0B">0x228466F2...619d7CF0B</span></a></div></div><div class='d-flex align-items-center gap-2'><div class='small text-muted me-1' >14 secs ago</div><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 px-1.5' data-bs-toggle='tooltip' title='Amount'>0 ETH</span></div></div></div><!-- End Item List -->
+                    </div>
+
+                    <a class="card-footer bg-light fw-medium text-cap link-muted text-center" href="/txs">
+                        View all transactions <i class="far fa-long-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- End Transactions -->
+
+            <!-- L1 Transactions -->
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h2 class="card-header-title" data-bs-toggle="tooltip" data-bs-placement="top" title="Latest Transactions submitted from L1 to L2">Latest L1→L2 Transactions</h2>
+                    </div>
+
+                    <div class="card-body overflow-auto scrollbar-custom" style="max-height: 30.3rem;">
+                        <!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'><span>Block#</span><a class='d-block text-truncate' style='max-width: 15rem;' href='https://sepolia.etherscan.io/block/7102326' target='_blank'>7102326</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/block/7102326' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'><span>L1 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='https://sepolia.etherscan.io/tx/0x81f8a4ac039eeb179ded60ede5a810b9b54e8de7f18b8cea26c1270197e78d94' target='_blank'>0x81f8a4ac039eeb179ded60ede5a810b9b54e8de7f18b8cea26c1270197e78d94</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/tx/0x81f8a4ac039eeb179ded60ede5a810b9b54e8de7f18b8cea26c1270197e78d94' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center text-truncate gap-1'><span>L2 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='/tx/0x3c09dc143484d395ef8f9127034af1ad9f397bb0e3817261786afb23b31816a9'>0x3c09dc143484d395ef8f9127034af1ad9f397bb0e3817261786afb23b31816a9</a></div></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'><span>Block#</span><a class='d-block text-truncate' style='max-width: 15rem;' href='https://sepolia.etherscan.io/block/7100585' target='_blank'>7100585</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/block/7100585' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'><span>L1 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='https://sepolia.etherscan.io/tx/0x42a8ea95955c17c365ea0eaefdf14342468099f5019db922cd28b39e4374bc50' target='_blank'>0x42a8ea95955c17c365ea0eaefdf14342468099f5019db922cd28b39e4374bc50</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/tx/0x42a8ea95955c17c365ea0eaefdf14342468099f5019db922cd28b39e4374bc50' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center text-truncate gap-1'><span>L2 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='/tx/0x93c3d7dc62842de40f23df733aaf0cb637c9bfc2e71fca340160bfcb88b6a59d'>0x93c3d7dc62842de40f23df733aaf0cb637c9bfc2e71fca340160bfcb88b6a59d</a></div></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'><span>Block#</span><a class='d-block text-truncate' style='max-width: 15rem;' href='https://sepolia.etherscan.io/block/7099633' target='_blank'>7099633</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/block/7099633' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'><span>L1 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='https://sepolia.etherscan.io/tx/0x9bcf6fcdb46a5249ae6e00c234b33881a84e5eaa0e8575fd28366b47086de94f' target='_blank'>0x9bcf6fcdb46a5249ae6e00c234b33881a84e5eaa0e8575fd28366b47086de94f</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/tx/0x9bcf6fcdb46a5249ae6e00c234b33881a84e5eaa0e8575fd28366b47086de94f' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center text-truncate gap-1'><span>L2 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='/tx/0x2d8d7dd4d1dac093624e1f9ff059248694d01f30bead9f455920fdfe43ccc367'>0x2d8d7dd4d1dac093624e1f9ff059248694d01f30bead9f455920fdfe43ccc367</a></div></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'><span>Block#</span><a class='d-block text-truncate' style='max-width: 15rem;' href='https://sepolia.etherscan.io/block/7099626' target='_blank'>7099626</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/block/7099626' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'><span>L1 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='https://sepolia.etherscan.io/tx/0xa6bc68e2c8adcbfd500d174ca1502b214f97ffef433ed9cdb408cda90a0fbce2' target='_blank'>0xa6bc68e2c8adcbfd500d174ca1502b214f97ffef433ed9cdb408cda90a0fbce2</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/tx/0xa6bc68e2c8adcbfd500d174ca1502b214f97ffef433ed9cdb408cda90a0fbce2' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center text-truncate gap-1'><span>L2 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='/tx/0xbe8a6068d59be5295b683051f49e38cfe2ef2ecb584ce3cd0c5cf3e624632008'>0xbe8a6068d59be5295b683051f49e38cfe2ef2ecb584ce3cd0c5cf3e624632008</a></div></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'><span>Block#</span><a class='d-block text-truncate' style='max-width: 15rem;' href='https://sepolia.etherscan.io/block/7099622' target='_blank'>7099622</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/block/7099622' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'><span>L1 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='https://sepolia.etherscan.io/tx/0x8cf558318eda433e7805c2110592882e0e0846e5583cfc24ccccd23542cdc0f7' target='_blank'>0x8cf558318eda433e7805c2110592882e0e0846e5583cfc24ccccd23542cdc0f7</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/tx/0x8cf558318eda433e7805c2110592882e0e0846e5583cfc24ccccd23542cdc0f7' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center text-truncate gap-1'><span>L2 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='/tx/0xe4d1cb33a926d5a471f6ef8585090edf21724cad711e8ada47ce8a872cfa6bcd'>0xe4d1cb33a926d5a471f6ef8585090edf21724cad711e8ada47ce8a872cfa6bcd</a></div></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'><span>Block#</span><a class='d-block text-truncate' style='max-width: 15rem;' href='https://sepolia.etherscan.io/block/7099616' target='_blank'>7099616</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/block/7099616' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'><span>L1 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='https://sepolia.etherscan.io/tx/0x16b8d3713711789d93db06132b715552873186c73c86906867e7b64bb114c4ee' target='_blank'>0x16b8d3713711789d93db06132b715552873186c73c86906867e7b64bb114c4ee</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/tx/0x16b8d3713711789d93db06132b715552873186c73c86906867e7b64bb114c4ee' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center text-truncate gap-1'><span>L2 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='/tx/0x62a9b5cf7a0d9a6042ad06f9e25d9acfd44fb1d27131447d7f8554d410cd78a7'>0x62a9b5cf7a0d9a6042ad06f9e25d9acfd44fb1d27131447d7f8554d410cd78a7</a></div></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'><span>Block#</span><a class='d-block text-truncate' style='max-width: 15rem;' href='https://sepolia.etherscan.io/block/7099613' target='_blank'>7099613</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/block/7099613' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'><span>L1 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='https://sepolia.etherscan.io/tx/0x594b9a3a815765007419794d2b10f03114e2546b77fe46bd7be6f971326cfd7b' target='_blank'>0x594b9a3a815765007419794d2b10f03114e2546b77fe46bd7be6f971326cfd7b</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/tx/0x594b9a3a815765007419794d2b10f03114e2546b77fe46bd7be6f971326cfd7b' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center text-truncate gap-1'><span>L2 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='/tx/0x5f13c837749a25ac5b06b47ad2e1888964b36db489da51aad84e67e2dc0e497b'>0x5f13c837749a25ac5b06b47ad2e1888964b36db489da51aad84e67e2dc0e497b</a></div></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'><span>Block#</span><a class='d-block text-truncate' style='max-width: 15rem;' href='https://sepolia.etherscan.io/block/7099610' target='_blank'>7099610</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/block/7099610' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'><span>L1 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='https://sepolia.etherscan.io/tx/0xb80cd6824ab1f6a7a1e6c552b6bbed98635c09382c1d4e854595cb23646fd5cb' target='_blank'>0xb80cd6824ab1f6a7a1e6c552b6bbed98635c09382c1d4e854595cb23646fd5cb</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/tx/0xb80cd6824ab1f6a7a1e6c552b6bbed98635c09382c1d4e854595cb23646fd5cb' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center text-truncate gap-1'><span>L2 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='/tx/0xeb2f25eeaad142328d5ff8aa752e67488550cbfedfd03c85af09b3450ec9a1ca'>0xeb2f25eeaad142328d5ff8aa752e67488550cbfedfd03c85af09b3450ec9a1ca</a></div></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'><span>Block#</span><a class='d-block text-truncate' style='max-width: 15rem;' href='https://sepolia.etherscan.io/block/7099599' target='_blank'>7099599</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/block/7099599' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'><span>L1 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='https://sepolia.etherscan.io/tx/0x6652a5fe77bab3142d08aa0123e587603248c09b52efcd26b7c3119c09fa767f' target='_blank'>0x6652a5fe77bab3142d08aa0123e587603248c09b52efcd26b7c3119c09fa767f</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/tx/0x6652a5fe77bab3142d08aa0123e587603248c09b52efcd26b7c3119c09fa767f' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center text-truncate gap-1'><span>L2 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='/tx/0xbf70b20bff1825156cd7ba10dce54b8e87957607d6fe6d10db3b2699060ea006'>0xbf70b20bff1825156cd7ba10dce54b8e87957607d6fe6d10db3b2699060ea006</a></div></div></div></div><!-- End Item List --><hr><!-- Item List --><div class='d-flex gap-2'><div class='d-none d-sm-flex d-lg-none d-xl-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex flex-column flex-grow-1 text-truncate gap-0.5'><div class='d-flex align-items-center gap-1'><span>Block#</span><a class='d-block text-truncate' style='max-width: 15rem;' href='https://sepolia.etherscan.io/block/7099589' target='_blank'>7099589</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/block/7099589' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center gap-1'><div class='d-flex align-items-center text-truncate gap-1'><span>L1 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='https://sepolia.etherscan.io/tx/0x3d050f3b01cf7d7b9ba328c6223d372f796026f3e035cd15a30c3589c63c5db9' target='_blank'>0x3d050f3b01cf7d7b9ba328c6223d372f796026f3e035cd15a30c3589c63c5db9</a><a class='link-muted mt-n0.5' href='https://sepolia.etherscan.io/tx/0x3d050f3b01cf7d7b9ba328c6223d372f796026f3e035cd15a30c3589c63c5db9' target='_blank'><i class='far fa-arrow-up-right-from-square small'></i></a></div><div class='d-flex align-items-center text-truncate gap-1'><span>L2 Tx#</span><a class='text-truncate d-block' style='max-width: 12rem;' href='/tx/0xe60b0f8f2760154ff06a32530dc10eafc6a79ab4fbfa2363d4d3fccbd302be28'>0xe60b0f8f2760154ff06a32530dc10eafc6a79ab4fbfa2363d4d3fccbd302be28</a></div></div></div></div><!-- End Item List -->
+                    </div>
+
+                    <a class="card-footer bg-light fw-medium text-cap link-muted text-center" href="/txsDeposits">
+                        View all L1→L2 transactions <i class="far fa-long-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- End L1 Transactions -->
+
+            <!-- End L2 Explorers -->
+            </div>
+        <!-- End Custom Cards -->
+    </section>
+
+    <!-- Modal: Card Customize -->
+    <div class="modal fade" id="customizeCardModal" tabindex="-1" aria-labelledby="customizeCardLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="customizeCardLabel">Custom Card</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Customize this card by selecting one of the options below.</p>
+
+                    <form>
+                        <div id="ContentPlaceHolder1_divSavedAdvancedFiltersOption">
+                            <h6 class="text-cap fw-medium mb-2">ADVANCED FILTER</h6>
+
+                            <div class="d-flex gap-2 mb-4">
+                                <div class="position-relative border rounded py-1 px-2" id="checkAdvancedFilterInputWrapper">
+                                    <input class="form-check-input me-1" type="radio" name="checkCustomOption" value="AdvancedFilters" id="checkAdvancedFilter">
+                                    <label class="form-check-label stretched-link" for="checkAdvancedFilter">Saved Filters</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h6 class="text-cap fw-medium mb-2">PRESET</h6>
+
+                        <div class="d-flex flex-wrap gap-2">
+                            <div class="position-relative border rounded py-1 px-2">
+                                <input class="form-check-input me-1" type="radio" name="checkCustomOption" value="LatestBlocks" id="checkPresets1">
+                                <label class="form-check-label stretched-link" for="checkPresets1">Latest Blocks</label>
+                            </div>
+
+                            <div class="position-relative border rounded py-1 px-2">
+                                <input class="form-check-input me-1" type="radio" name="checkCustomOption" value="LatestTransactions" id="checkPresets2">
+                                <label class="form-check-label stretched-link" for="checkPresets2">Latest Transactions</label>
+                            </div>
+
+                            
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-ghost-white" data-bs-dismiss="modal">Close</button>
+                    <button type="button" id="btnSaveCardType" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal: Card Customize -->
+
+    <!-- Modal: Advanced Filter List -->
+    <div class="modal fade" id="advancedFilterListModal" tabindex="-1" aria-labelledby="advancedFilterListModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="advancedFilterListModalLabel">Choose Advanced Filter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div id="listAdvancedFilter" class="modal-body">
+                    <div class="position-relative mb-4">
+                        <span class="d-flex align-items-center position-absolute top-0 bottom-0" title="Search" style="left: 0.75rem;">
+                            <i class="fa-regular fa-search fs-5 text-secondary"></i>
+                        </span>
+
+                        <input id="txtSearchSavedFilters" class="search form-control form-control-lg bg-light bg-focus-white" type="text" placeholder="Search saved filters" aria-label="Search" style="padding-left: 2.375rem;">
+                    </div>
+
+                    <div id="divSavedAdvancedFiltersResult" class="list d-flex flex-column scrollbar-custom overflow-y-auto gap-1" style="max-height: 25rem;">
+
+                        <div id="divSelectedFilters" class="d-none">
+                            
+                        </div>
+
+                        <h6 class="text-cap mb-0">Advanced Filter List</h6>
+
+                        <div id="divAdvancedFilterList">
+                            
+                        </div>
+                    </div>
+                    <!-- End Advanced Filter List -->
+                </div>
+
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-ghost-white" data-bs-dismiss="modal">Close</button>
+                    <button type="button" id="btnSaveAdvancedFilterCard" class="btn btn-primary" disabled>Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal: Advanced Filter List -->
+
+    </main>
+
+    <div id="push" style="display: none;"></div>
+    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" id="emailSubscribeModalBox" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close close-md" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="text-center py-5-alt px-4">
+                        <div id="emailSubscribeModalBoxText"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    
+    
+    <div class="modal fade" id="copyAddressConfirmModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <div class="mb-5">
+                        <div class="text-center">
+                            <div class="mb-2">
+                                <i class="fas fa-exclamation-triangle text-warning fs-2"></i>
+                            </div>
+
+                            <h6 class="modal-title fs-5 mb-0">Before You Copy</h6>
+                        </div>
+
+                        <div class="mb-3 text-center">
+                            <p class="text-muted small" id="addressToCopy"></p>
+                        </div>
+
+                        <p id="copyAddressConfirmMessage"></p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="popupDontShowAgain">
+                            <label class="form-check-label" for="popupDontShowAgain">Don't show this for 30 days</label>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="btnConfirmCopyAddress" data-clipboard-target="#addressToCopy" class="btn btn-lg btn-secondary" data-bs-dismiss="modal">
+                            Understand, Copy Address
+                       
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer id="masterFooter" class="bg-light mt-auto d-print-none">
+        
+        <div class="container-xxl">
+            <!-- Footer Content -->
+            <div class=" py-4">
+                <div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img class="me-2" width="22" data-img-theme="light" src="/assets/linea/images/svg/logos/chain-light.svg?v=24.11.1.0" alt="Linea Sepolia Logo">
+                            <img class="me-2" width="22" data-img-theme="dim" src="/assets/linea/images/svg/logos/chain-dim.svg?v=24.11.1.0" alt="Linea Sepolia Logo">
+                            <img class="me-2" width="22" data-img-theme="dark" src="/assets/linea/images/svg/logos/chain-dark.svg?v=24.11.1.0" alt="Linea Sepolia Logo">
+                            <span class="fs-5">Powered By Linea</span>
+                        </div>
+                        <a class="link-dark" href="#">
+                            <i class="far fa-arrow-up-to-line me-1"></i> Back to Top
+                        </a>
+                    </div>
+                </div>
+
+                <div id="btnAddToNetwork" class="mt-3">
+                    <button type="button" class="btn btn-sm btn-secondary" onclick="addNetwork('web3');">
+                        <img class="me-1" width="15" src="/images/svg/brands/metamask.svg" alt="Metamask"> Add Linea Sepolia Network
+                    </button>
+                </div>
+            </div>
+            <!-- End Footer Content -->
+
+            <!-- Copyright Content -->
+            <div class="border-top py-4">
+                <div class="row justify-content-between align-items-center fs-sm">
+                    <div class="col-md mb-2 mb-md-0">
+                        <p class="mb-0">
+                            LineaScan © 2024  (Linea-Sepolia)
+                            <span class="mx-1">|</span>
+                            ⛏ Built by Team <a href="https://etherscan.io" target="_blank"><strong>Etherscan</strong><i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a>
+                        </p>
+                    </div>
+
+                    <div class="col-md text-md-end">
+                        <div class="d-flex flex-wrap justify-content-md-end gap-2">
+                            <span>
+                                <a class="link-dark" rel="nofollow noopener" target="_blank" href="https://sepolia.lineascan.build/terms">Terms</a> & <a class="link-dark" rel="nofollow noopener" target="_blank" href="https://sepolia.lineascan.build/privacyPolicy">Privacy</a>
+                            </span>
+                            <span class="text-secondary d-none d-sm-block">|</span>
+                            <a class="link-dark" rel="nofollow noopener" target="_blank" href="https://lineascan.statuspage.io">Network Status</a>
+                            <span class="text-secondary d-none d-sm-block">|</span>
+                            <p class="mb-0">Donations: <a class="me-1" href="/address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f">0x71c765...d8976f</a> <i class="fas fa-heart text-danger"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Copyright Content -->
+        </div>
+        </footer>
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- Cookie Alert -->
+    <div id="masterDivCookie">
+        <div class="fixed-bottom text-center" id="divcookie" style="display: none;">
+            <div class="alert alert-light fade show border shadow-sm d-inline-flex flex-wrap flex-sm-nowrap align-items-sm-center text-start gap-3 mx-3" role="alert">
+                <p class="text-dark mb-0">
+                    <i class="far fa-cookie-bite text-muted"></i> This website <a href="/terms#cookiestatement" target="_blank">uses cookies to improve your experience</a>. By continuing to use this website, you agree to its <a href="/terms" target="_blank">Terms</a> and <a href="/privacyPolicy" target="_blank">Privacy Policy</a>.
+                </p>
+                <button id ='btnCookie' type="button" class="btn btn-primary text-nowrap px-4" data-bs-dismiss="alert" aria-label="Close">Got it!</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Cookie Alert -->
+
+    <script src="/assets/vendor/jquery-ui/jquery-ui.min.js?v=24.11.1.0"></script>
+ <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js?v=24.11.1.0"></script>
+ <script src="/assets/vendor/bootstrap/bootstrap.bundle.min.js?v=24.11.1.0"></script>
+
+ <!-- JS Implementing Plugins -->
+ <script src="/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js?v=24.11.1.0"></script>
+ <script src="/assets/vendor/clipboard/dist/clipboard.min.js?v=24.11.1.0"></script>
+
+ <!-- JS Front -->
+ <script src="/assets/js/hs.core.js?v=24.11.1.0"></script>
+ <script src="/assets/js/components/hs.cubeportfolio.js?v=24.11.1.0"></script>
+ <script src="/assets/js/custom/combine-js-bottom2.js?v=24.11.1.0"></script>
+ <script src="/assets/vendor/autocomplete/dist/js/autocomplete.min.js?v=24.11.1.0"></script>
+ <script src="/assets/js/custom/blockchain-search.js?v=24.11.1.0"></script>
+ <!-- JS -->
+ <script src="/assets/js/app.min.js?v=24.11.1.0"></script>
+ 
+ <!-- JS Init. -->
+    <script>
+        var strSearchBoxSiteToken = 'ERC';
+
+        (function () {
+            // INITIALIZATION OF CLIPBOARD
+            HSCore.components.HSClipboard.init('.js-clipboard');
+
+            let searchAttributes = {
+                'name': 'title',
+                'img': 'img',
+                'rate': 'rate',
+                'address': 'address',
+                'link': 'link',
+                'group': 'group',
+                'groupid': 'groupid',
+                'website': 'website',
+                'is_verified': 'is_checked',
+                'ps': 'ps',
+                'desc': 'desc',
+                'reputation' : 'reputation'
+            }
+
+            blockChainSearchInit({
+                id: 'search-panel',
+                attributes: searchAttributes
+            });
+        })();
+
+
+    </script>
+    <!-- JS Plugins Init. -->
+    <script>
+        $(window).on('load', function () {
+            myfn_subscribeNewsletter.startFn("#btnSubscribeNewsletter", "#signupSrEmail")
+        });
+
+        $(document).on('ready', function () {
+
+            // Get offset timezone of enduser and set to cookie
+            const date = new Date();
+            const offsetMinutes = date.getTimezoneOffset();
+            const offsetHours = Math.abs(offsetMinutes / 60);
+            const sign = offsetMinutes > 0 ? '-' : '+';
+            offsetHoursFinal = sign + offsetHours;
+            writeCookie(strSiteName + "_offset_datetime", offsetHoursFinal, 365);
+
+            // initialization of cubeportfolio
+            $.HSCore.components.HSCubeportfolio.init('.cbp');
+
+            const clipboard = new ClipboardJS('.js-clipboard');
+            clipboard.on('success', function (e) {
+                let toolTip = bootstrap.Tooltip.getInstance(e.trigger);
+                var oriTooltip = toolTip._config.originalTitle
+
+                toolTip._config.title = 'Copied!';
+                toolTip.setContent();
+                toolTip.update();
+
+                setTimeout(function () {
+                    toolTip._config.title = oriTooltip;
+                }, 1000);
+            });
+        });
+
+    </script>
+    
+    <script type="text/javascript">
+        var strSiteName = 'lineascan';
+        var sid = '5f95a98172121c38941ee0b428ddc6e2';
+        var strGlobal = getCookie(strSiteName + "_switch_age_datetime");
+        var strGlobalFee = sessionStorage.getItem("ShowFee");
+        var strGlobalSlotEpoch = sessionStorage.getItem("ShowSlotEpoch");
+        var cookieconsent = getCookie(strSiteName + "_cookieconsent");
+        var ignoreCopyConfirmation = getCopyAddressConfirmationSetting();
+        var colorHyperLink = '#7342DC';
+
+
+if (cookieconsent !== "True" && document.getElementById("divcookie")) {
+    document.getElementById("divcookie").style.display = "block";
+};
+
+
+var ace_editor_theme = 'ace/theme/dawn';
+var ace_editor_theme_dim = 'ace/theme/tomorrow_night_blue';
+var ace_editor_theme_dark = 'ace/theme/tomorrow_night';
+
+var chart_linear_gradient = "{ x1: 0, y1: 0, x2: 0, y2: 1 }";
+var chart_stops = "[ [0, Highcharts.getOptions().colors[0]], [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')] ]";
+var chart_tooltip_color = "";
+var chart_point_color = "";
+var chart_series_color = "";
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        $("#btnCookie").click(function () {
+            $("#divcookie").fadeOut("slow", function () {
+                var d = new Date();
+                d.setTime(d.getTime() + (1095 * 24 * 60 * 60 * 1000));
+                var expires = "expires=" + d.toUTCString();
+                document.cookie = strSiteName + "_cookieconsent=True" + ";" + expires + ";path=/";;
+            });
+        });
+
+        function handleSearchText(data) {
+            searchAddress = false;
+            if ($("search-panel").val() == "") {
+                $("#hdnSearchText").val("");
+                $("#hdnSearchLabel").val("");
+            }
+        }
+
+        function writeCookie(key, value, days) {
+            var date = new Date();
+            days = days || 365;
+            date.setTime(+ date + (days * 86400000));
+            window.document.cookie = key + "=" + value + "; expires=" + date.toGMTString() + "; path=/";
+            return value;
+        }
+
+        function setThemeMode(mode) {
+            writeCookie('displaymode', mode);
+        }
+
+        // Note: this function will be called from where need to init the "Copy Address Confirm Modal".
+        function openCopyAddressConfirmModal(address, message) {
+            $("#addressToCopy").text(address);
+            $("#copyAddressConfirmMessage").text(message);
+
+            const clipboard = new ClipboardJS("#btnConfirmCopyAddress");
+            document.getElementById('copyAddressConfirmModal').addEventListener('hidden.bs.modal', event => {
+                clipboard.destroy();
+            });
+
+            const copyAddressConfirmModal = new bootstrap.Modal('#copyAddressConfirmModal', {
+                backdrop: true
+            })
+            copyAddressConfirmModal.show();
+        }
+
+        function saveCopyAddressConfirmationSetting(ignoreCopyConfirmation) {
+            const copyAddressConfirmationSetting = {
+                ignoreCopyConfirmation: ignoreCopyConfirmation,
+                expiresOn: Date.now() + 1000 * 60 * 60 * 24 * 30
+            };
+            localStorage.setItem(strSiteName + "_copyAddressConfirmationSetting", JSON.stringify(copyAddressConfirmationSetting));
+        }
+
+        function getCopyAddressConfirmationSetting() {
+            try {
+                const settings = localStorage.getItem(strSiteName + "_copyAddressConfirmationSetting");
+                if (settings) {
+                    const copyAddressConfirmationSetting = JSON.parse(settings);
+
+                    return copyAddressConfirmationSetting.ignoreCopyConfirmation && copyAddressConfirmationSetting.expiresOn > Date.now();
+                }
+                else {
+                    return false;
+                }
+            } catch (e) {
+                return false;
+            }
+        }
+    </script>
+
+    
+
+<script src="/assets/js/custom/web3.min.js?v=0.5.2.3"></script>
+<script src="/assets/js/custom/web3-utils.min.js"></script>
+
+<script src="/assets/js/custom/web3-providers-http.min.js"></script>    
+<script type="text/javascript">
+    var eth;
+    var isTestnet = 'true';
+    var SiteNetID = '59141';
+    var SiteNetChainID = '0xE705';
+    var SiteNetName = 'Linea Sepolia';
+    var allowErc1155 = 'True';
+
+        async function addNetwork(type) {
+
+            if (type === 'web3') {
+                if (typeof ethereum !== 'undefined') {
+                    eth = new Web3(ethereum);
+                } else if (typeof web3 !== 'undefined') {
+                    eth = new Web3(web3.givenProvider);
+                } else {
+                    eth = new Web3(ethereum);
+                }
+            }
+
+            if (typeof eth !== 'undefined') {
+                var network = 0;
+                network = await eth.eth.net.getId();
+                netID = network.toString();
+                var params;
+                if (netID == SiteNetID) {
+                      alert("Linea Sepolia Network has already been added to Metamask.");
+    return;
+} else {
+    params = [{
+        chainId: SiteNetChainID,
+        chainName: 'Linea Sepolia',
+        nativeCurrency: {
+            name: 'ETH',
+            symbol: 'ETH',
+            decimals: 18
+        },
+        rpcUrls: ['https://rpc.sepolia.linea.build'],
+        blockExplorerUrls: ['https://sepolia.lineascan.build']
+}]
+                }
+
+                window.ethereum.request({ method: 'wallet_addEthereumChain', params })
+                    .then(() => console.log('Success'))
+                    .catch((error) => console.log("Error", error.message));
+            } else {
+                alert('Unable to locate a compatible web3 browser!');
+            }
+        }
+    </script>
+
+    
+
+    <script src="/assets/highcharts/v/highcharts.js?v=24.11.1.0"></script>
+
+    <script type="text/javascript">
+        var lang_miner = "Validator";
+        var lang_mined_by = "Sequenced By";
+        var lang_block = "Block";
+        var lang_block_reward = "Block Reward";
+        var lang_sec = "sec";
+        var lang_secs = "secs";
+        var lang_min = "min";
+        var lang_mins = "mins";
+        var lang_from = "From";
+        var lang_to = "To";
+        var lang_amount = "Amount";
+        var lang_tx = "Tx";
+        var lang_bk = "Bk";
+        var lang_ether = "ETH";
+        var lang_txns = "txns";
+        var lang_in_X = "in";
+        var lang_ago = "ago";
+        var lang_secs_ago = "secs ago";
+        var lang_sec_ago = "sec ago";
+        var lang_sec_in = "";
+        var lang_hash = "Hash";
+        var lang_c = "LINEA";
+    </script>
+
+    
+    <script type="text/javascript">
+
+        function setFocus() {
+            if (window.innerWidth > 600)
+                $("input[name=q]").focus();
+        }
+        $(document).ready(function () {
+            //setFocus();
+        });
+    </script>
+    
+
+</body>
+</html>
