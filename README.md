@@ -1,5 +1,5 @@
 # notice:
-#### Unfortunately, my original GitHub account (owner of repo web3easyaccess) was lost on November 25, 2024. This is the new repo of web3easyaccess, please be aware.
+#### Unfortunately, my original GitHub account (owner of repo [web3easyaccess](https://github.com/web3easyaccess/web3easyaccess)) was lost on November 25, 2024. This is the new repo of web3easyaccess, please be aware.
 
 # web3easyaccess
 
